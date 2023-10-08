@@ -1,0 +1,39 @@
+.my-list {
+  font-size: 2.3rem;
+}
+.main-design {
+  margin-top: 7rem !important;
+}
+.card-img {
+  height: 10rem;
+}
+.card-design {
+  height: 10rem;
+  border: none !important;
+  margin-bottom: 5rem;
+  transition: 0.5s ease-in-out;
+  /* z-index: 99; */
+}
+
+.card-design:hover {
+  transform: scale(1.2);
+  z-index: 50;
+}
+
+.nav2 {
+  position: absolute;
+  top: 3rem;
+  z-index: 90;
+  max-width: 100%;
+  background-color: transparent;
+  margin: 2rem 0 2rem 3.5rem;
+}
+
+.scrolledNav2 {
+  position: sticky !important;
+  background-color: rgb(20, 20, 20) !important;
+}
+
+.brand2 {
+  margin-left: 6rem !important;
+}

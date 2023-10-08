@@ -1,0 +1,114 @@
+.BrowseBar {
+  position: relative;
+  /* margin-top: 6rem; */
+}
+
+.Browse__scrolled {
+  position: sticky !important;
+  background-color: rgb(20, 20, 20) !important;
+}
+
+.Browse__secondaryNavbar {
+  position: absolute;
+  top: 2rem;
+  z-index: 90;
+  width: 100%;
+  background-color: transparent;
+}
+
+.btn11 {
+  color: white !important;
+  border: 2px solid white !important;
+  width: 100% !important;
+  background-color: black;
+  border-radius: 0 !important;
+  text-align: start !important;
+}
+.btn11:hover {
+  color: white !important;
+  border: 2px solid white !important;
+}
+.scrollable-menu {
+  height: auto;
+  max-height: 300px;
+  overflow-x: hidden;
+}
+.non2 {
+  list-style-type: none;
+}
+.non2 li {
+  margin-top: 15px;
+}
+.btn12 {
+  color: white !important;
+  border: 2px solid white !important;
+  text-align: left !important;
+}
+.btn12:hover {
+  color: white !important;
+  border: 2px solid white !important;
+}
+.immg {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.immg2 {
+  width: 20%;
+}
+.immg:hover {
+  transform: scale(1.4, 1.4);
+}
+@media screen and (min-width: 901px) and (max-width: 1400px) {
+  .immg2 {
+    width: 33.33% !important;
+  }
+  .edit {
+    width: 30% !important;
+  }
+  .immg3 {
+    display: inline-block;
+    width: 100% !important;
+  }
+  .immg4 {
+    width: 100% !important;
+    margin: 10px !important;
+    color: aliceblue !important;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .immg2,
+  .edit {
+    width: 50% !important;
+  }
+  .immg3 {
+    display: inline-block;
+    width: 95% !important;
+  }
+  .immg4 {
+    width: 95% !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .immg2,
+  .edit {
+    width: 95% !important;
+  }
+  .immg3 {
+    display: inline-block;
+    width: 95% !important;
+  }
+  .immg4 {
+    width: 95% !important;
+  }
+}
+
+select {
+  cursor: pointer;
+  background-color: black !important;
+  border: 1px solid white;
+  color: white;
+  margin-left: 20px;
+  padding: 5px;
+}

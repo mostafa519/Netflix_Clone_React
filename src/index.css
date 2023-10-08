@@ -1,0 +1,24 @@
+@font-face {
+  font-family: NetflixSans-Regular;
+  src: url(/public/NetflixSans-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: NetflixSans-Regular;
+  background-color: rgb(20, 20, 20) !important;
+  color: white !important;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
